@@ -1,0 +1,29 @@
+.TechnologySection {
+  width: 100%;
+  padding: 0 80px;
+}
+
+.TechnologySection table {
+  width: 100%;
+  height: 50vh;
+  /* border-spacing: 0; */
+  border-collapse: collapse;
+}
+
+.TechnologySection table thead {
+  font-size: 30px;
+  border: 2px solid black; /* Set border style here */
+}
+
+.TechnologySection table thead th {
+  padding: 15px 0;
+}
+
+.TechnologySection table tbody tr td {
+  text-align: center;
+}
+
+.TechnologySection table tbody tr:hover {
+  background: gainsboro;
+  cursor: pointer;
+}

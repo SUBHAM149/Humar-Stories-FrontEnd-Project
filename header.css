@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+  margin-top: 30px;
+
+  position: sticky;
+  top: 0%;
+  z-index:30;
+  background: darkgrey;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#logo {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 7px 15px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}

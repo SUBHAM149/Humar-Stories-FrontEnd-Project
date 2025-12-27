@@ -1,0 +1,41 @@
+.projectCardSection {
+  width: 50%;
+  height: 60vh;
+  border: 2px solid;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+}
+
+.projectCardSection div {
+  width: 70%;
+  height: 70%;
+  background-image: url(./projectImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.projectCardSection div:hover {
+  background-size: 120%;
+}
+
+.projectCardSection p {
+  text-align: center;
+  font-size: 42px;
+  padding: 20px 0;
+  font-weight: 800;
+  color: darkblue;
+}
+
+.projectCardSection p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
